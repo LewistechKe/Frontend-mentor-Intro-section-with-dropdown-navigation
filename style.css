@@ -75,27 +75,28 @@
     text-align: center;
 }
 .wrapper{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
 }
 
 .wrapper left {
-    margin: 50%;
+    margin: 65%;
     padding: 50%;
 }
 
 .wrapper .left h1 {
     font-size: 6rem;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .wrapper .left p{
     font-size: 20px;
     color: hsl(0, 0%, 41%);
     line-height: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     width: 450px;
 }
 
@@ -107,7 +108,14 @@
     border: 1px solid hsl(0, 0%, 41%);
     font-size: 20px;
     cursor: pointer;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
+    transition: 0.5s;
+}
+
+.wrapper .left button:hover{
+    color: hsl(0, 0%, 8%);
+    background-color: white;
+    border-color: hsl(0, 0%, 8%);
 }
 
 .wrapper .left .footer-icons img{
@@ -115,5 +123,10 @@
 }
 
 .wrapper .right {
-    width: 50%;
+    width: 35%;
+}
+
+.wrapper .right img {
+    width: 100%;
+    padding: 30px;
 }
